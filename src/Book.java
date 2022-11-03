@@ -43,7 +43,7 @@ public class Book {
     public String toString() {
         return
                 "Название книги'" + bookName + '\'' + " \n"+
-                " Автор книги - " + authorName + " \n" +
+                " Автор книги - " + authorName.toString() + " \n" +
                 " Год выпуска  " + publishingYear;
 
     }
